@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Recipe App
-//
-//  Created by Александр Лагутин on 05/03/2026.
-//
-
 import SwiftUI
 
 struct ContentView: View {
