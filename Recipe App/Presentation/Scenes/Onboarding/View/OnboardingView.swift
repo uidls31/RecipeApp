@@ -7,7 +7,7 @@ struct OnboardingView: View {
     var onFinish: () -> Void
     var body: some View {
         VStack(alignment: .center, spacing: 37) {
-            HeaderOnboardingView(textPage: "\(currentPage + 1) / 4", currentPage: $currentPage, action: {
+            HeaderOnboardingView(textPage: "\(currentPage + 1) / 4", headerType: .onboarding, currentPage: $currentPage, imageButton: .backVectorApp, action: {
                 withAnimation(.easeInOut) {
                     currentPage -= 1
                 }

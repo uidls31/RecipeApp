@@ -25,3 +25,9 @@ struct OnboardingButton: View {
         }
     }
 }
+
+#Preview {
+    OnboardingButton(isSelected: true, text: "Get Cooking") {
+        //
+    }
+}
